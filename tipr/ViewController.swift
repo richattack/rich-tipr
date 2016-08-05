@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     @IBAction func usePresetTip(sender: AnyObject) {
         let tipPercentages = [0.18, 0.2, 0.25]
         tipSlider.value = Float(tipPercentages[tipControl.selectedSegmentIndex])
+        calculateTip(tipSlider)
     }
     
     @IBAction func calculateTip(sender: AnyObject) {

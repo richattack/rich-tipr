@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--tipr-->
+        <!--Rich tipr-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tipr" customModuleProvider="target" sceneMemberID="viewController">
@@ -103,7 +103,7 @@
                             <outletCollection property="gestureRecognizers" destination="3mm-bA-kcg" appends="YES" id="uXM-mp-lsC"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="tipr" id="6OU-5j-Lyb"/>
+                    <navigationItem key="navigationItem" title="Rich tipr" id="6OU-5j-Lyb"/>
                     <connections>
                         <outlet property="billField" destination="v2k-in-kOx" id="eLr-XV-Tnd"/>
                         <outlet property="rateLabel" destination="NIA-er-hJT" id="WGz-Uf-lK1"/>

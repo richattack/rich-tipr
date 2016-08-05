@@ -30,8 +30,12 @@ class ViewController: UIViewController {
         view.endEditing(true);
     }
     
-    @IBAction func calculateTip(sender: AnyObject) {
+    @IBAction func usePresetTip(sender: AnyObject) {
         let tipPercentages = [0.18, 0.2, 0.25]
+        tipSlider.value = Float(tipPercentages[tipControl.selectedSegmentIndex])
+    }
+    
+    @IBAction func calculateTip(sender: AnyObject) {
         
         let bill = Double(billField.text!) ?? 0
         let tip = bill * Double(tipSlider.value)
